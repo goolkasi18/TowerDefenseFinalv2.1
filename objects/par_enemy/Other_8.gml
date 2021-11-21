@@ -1,3 +1,3 @@
 /// @description -1 Life and Destroy
-con_level.lifes -= 1;
+con_level.money -= 20;
 instance_destroy();
