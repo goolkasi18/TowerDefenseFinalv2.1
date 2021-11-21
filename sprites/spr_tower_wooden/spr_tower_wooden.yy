@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_tower_wooden","path":"sprites/spr_tower_wooden/spr_tower_wooden.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_tower_wooden",
     "tags": [],
     "resourceType": "GMSequence",
   },

@@ -6,3 +6,5 @@ Once you click on it it spawns a blueprint of the tower which follows the mouse.
 
 blueprint = par_blueprint;
 cost = 0;
+range = 0;
+damage = 0;

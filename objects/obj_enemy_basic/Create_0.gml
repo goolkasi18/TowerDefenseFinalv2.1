@@ -2,7 +2,7 @@
 event_inherited();
 
 if(instance_exists(con_level)){
-	hp = round(con_level.wave*1.3);
+	hp = 6 + round(con_level.wave*0.4);
 	mhp = hp;
 }
-spd = 2;
+spd = 1;
