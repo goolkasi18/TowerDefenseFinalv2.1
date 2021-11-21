@@ -1,4 +1,4 @@
-/// @description carve at beginning
+/// @description dig dig dig
 if(!finishedCarving){
 	var tileLayer = layer_get_id("Tiles");
 	var tileMap = layer_tilemap_get_id(tileLayer);
@@ -10,21 +10,30 @@ if(!finishedCarving){
 	offset = size/2;
 	
 
+
 	valid=false;
-	if(tileX == lastTile[0]){
-		if(tileY - lastTile[1] == 1){
+	if(ds_list_find_index(invalidSpaces,tilemap_get(tileMap, tileX, tileY)) == -1){ //if not in that list	
+		
+		if(tileY == 8 && lastTile[0] == 0 && lastTile[1] == 0){
 			valid=true;
 		}
-	}else if(tileY == lastTile[1]){
-		if(abs(tileX - lastTile[0]) == 1 && tilemap_get(tileMap, tileX, tileY-1) != 0){
-			valid=true;
+		else if(tileX == lastTile[0]){
+			if(tileY - lastTile[1] == 1){
+				valid=true;
+			}
+		}else if(tileY == lastTile[1]){
+			if(abs(tileX - lastTile[0]) == 1 && tilemap_get(tileMap, tileX, tileY-1) != 0){
+				valid=true;
+			}
 		}
-	}
-	if(tilemap_get(tileMap, tileX, tileY) != 0 && tileY == 8 && lastTile[0] == 0 && lastTile[1] == 0){
-		valid=true;
 	}
 	
 	if(valid){
+		if(tilemap_get(tileMap, tileX, tileY) == 4) money += 900;
+		if(tilemap_get(tileMap, tileX, tileY) == 5) money += 9000;
+		if(tilemap_get(tileMap, tileX, tileY) == 6) points += 9000;
+		if(tilemap_get(tileMap, tileX, tileY) == 7) points += 9000;
+		
 		tilemap_set(tileMap, 0, tileX, tileY);
 		lastTile = [tileX, tileY];
 		path_add_point(global.path, tilemap_get_x(tileMap)+(tileX*size)+offset, tilemap_get_y(tileMap)+(tileY*size)+offset, 100);
