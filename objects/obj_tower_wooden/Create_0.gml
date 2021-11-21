@@ -3,8 +3,10 @@
 // Inherit the parent event
 event_inherited();
 
+drawFire = false;
+
 range = 64;
-frequency = 0.2;
+frequency = 0.3;
 damage = 4;
-cost = 20;
-upgradecost = cost;
+cost = 80;
+upgradecost = cost/2;

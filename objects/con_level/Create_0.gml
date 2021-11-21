@@ -3,6 +3,7 @@
 Manages most of the game logic, like mob spawning, money, lifes ...
 */
 
+global.levelNum = 0;
 start = false;
 difficulty = 1;
 delay = 60*3;
