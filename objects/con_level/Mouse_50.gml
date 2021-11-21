@@ -1,4 +1,4 @@
-/// @description carve at beginning
+/// @description dig dig dig
 if(!finishedCarving){
 	var tileLayer = layer_get_id("Tiles");
 	var tileMap = layer_tilemap_get_id(tileLayer);
@@ -9,6 +9,8 @@ if(!finishedCarving){
 	size=32
 	offset = size/2;
 	
+	list = ds_list_create();
+	ds_list_add(list,0,1,2,3,4);
 
 	valid=false;
 	if(tileX == lastTile[0]){

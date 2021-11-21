@@ -6,6 +6,6 @@ if(start){
 }
 
 // Game Over
-if(lifes <= 0){
+if(money < 0){
 	game_restart();
 }
