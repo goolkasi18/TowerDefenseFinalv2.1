@@ -1,7 +1,7 @@
 /// @description Spawn Enemy
 
 if(monsters > 0){
-	
+	show_debug_message("got hete")
 	// Every fifth wave a boss monster appears, the other times basic, fast and tanky are supposed to be mixed
 	if(wave % 5 == 1 && wave != 1){
 		monsters = 1;
