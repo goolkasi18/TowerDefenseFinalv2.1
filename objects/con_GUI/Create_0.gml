@@ -6,10 +6,6 @@ draw_set_font(Font1);
 height = room_height;
 width = 192;
 
-// Avoid towers to be placed into gui
-block = instance_create_layer(0,0,"Blocks",obj_blocked_1x);
-block.image_xscale = width;
-block.image_yscale = height;
 
 // Place all kind of stuff into the left side of the screen, like towers to buy and such
 
