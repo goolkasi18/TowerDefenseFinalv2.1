@@ -33,11 +33,16 @@ if(instance_exists(par_tower)){
 // Draw general information 
 if(instance_exists(con_level)){
 	draw_set_color(c_black);
-	draw_text((32*2),0+(32*6),"Gold: " + string(con_level.money));
-	draw_text((32*22),0+(32*6),"High Score:");
-	draw_text((32*22),0+(32*7), string(con_level.points));
+	draw_text((32*2),0+(32*3),"Gold:");
+	draw_text((32*2),0+(32*4), string(con_level.money));
 	
-	draw_text(864-(32*4),0+(32*10),"Wave: " + string(con_level.wave));
+	draw_text((864-(32*4)),0+(32*3),"Level:");
+	draw_text((864-(32*4)),0+(32*4), string(global.levelNum));
+	
+	draw_text((864-(32*4)),0+(32*5),"Score:");
+	draw_text((864-(32*4)),0+(32*6), string(con_level.points));
+	
+	//draw_text(864-(32*4),0+(32*10),"Wave: " + string(con_level.wave));
 	
 	//draw_text(10,height-30,"Lifes: " + string(con_level.lifes));
 	
