@@ -7,6 +7,7 @@
     {"id":{"name":"spr_placeholder_64_purple","path":"sprites/spr_placeholder_64_purple/spr_placeholder_64_purple.yy",},"order":3,},
     {"id":{"name":"spr_placeholder_64_green","path":"sprites/spr_placeholder_64_green/spr_placeholder_64_green.yy",},"order":5,},
     {"id":{"name":"spr_placeholder_64_blue","path":"sprites/spr_placeholder_64_blue/spr_placeholder_64_blue.yy",},"order":7,},
+    {"id":{"name":"r_testDiffRes2","path":"rooms/r_testDiffRes2/r_testDiffRes2.yy",},"order":10,},
     {"id":{"name":"spr_placeholder_1","path":"sprites/spr_placeholder_1/spr_placeholder_1.yy",},"order":9,},
     {"id":{"name":"spr_upgrade","path":"sprites/spr_upgrade/spr_upgrade.yy",},"order":1,},
     {"id":{"name":"spr_sell","path":"sprites/spr_sell/spr_sell.yy",},"order":3,},
@@ -99,6 +100,7 @@
     {"roomId":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
     {"roomId":{"name":"r_test","path":"rooms/r_test/r_test.yy",},},
     {"roomId":{"name":"r_testDiffRes","path":"rooms/r_testDiffRes/r_testDiffRes.yy",},},
+    {"roomId":{"name":"r_testDiffRes2","path":"rooms/r_testDiffRes2/r_testDiffRes2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":2,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
