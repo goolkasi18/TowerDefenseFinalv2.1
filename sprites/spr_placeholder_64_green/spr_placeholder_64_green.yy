@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_placeholder_64_green","path":"sprites/spr_placeholder_64_green/spr_placeholder_64_green.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_placeholder_64_green",
     "tags": [],
     "resourceType": "GMSequence",
   },
