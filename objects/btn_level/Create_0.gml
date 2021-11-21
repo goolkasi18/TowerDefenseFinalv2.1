@@ -4,5 +4,5 @@ This is a variable Button where you can enter a sprite and a target room if clic
 */
 
 sprite = noone;
-target_room = rm_level0;
+target_room = r_testDiffRes;
 highlight = false;

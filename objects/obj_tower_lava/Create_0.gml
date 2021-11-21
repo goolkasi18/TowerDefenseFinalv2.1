@@ -3,8 +3,8 @@
 // Inherit the parent event
 event_inherited();
 
-range = 96;
-frequency = 0.1;
-damage = 7;
+range = 35;
+frequency = 0.05;
+damage = 6;
 cost = 200;
 upgradecost = cost/2;

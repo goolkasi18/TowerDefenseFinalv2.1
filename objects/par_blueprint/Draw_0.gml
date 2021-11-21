@@ -26,4 +26,6 @@ if(instance_exists(con_level)){
 draw_set_alpha(0.4);
 draw_circle(x+16,y+16,range,false);
 draw_set_alpha(1);
+
+drawStats(self);
 draw_self();

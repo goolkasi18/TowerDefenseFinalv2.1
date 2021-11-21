@@ -1,9 +1,12 @@
-/// @description Check for enemies in Range
+/// @description Check for enemies in Range and fire if so
 
-// Check for enemies in Range
-if(instance_exists(par_enemy)){
-	// If not on cooldown, (re)start the alarm
-	if(alarm[0] <= 0){
-		alarm[0] = 1/frequency * room_speed;
+if(instance_exists(par_enemy) && !reloading){ // To prevent errors
+	enemy = instance_nearest(x,y,par_enemy);
+	if(enemy != noone && !is_undefined(enemy)){ // To prevent even more errors (probably unnesessary)
+		if(distance_to_point(enemy.x,enemy.y) < range){ // If enemy in Range
+			
+			// Create Projectile in center and start reload
+
+		}
 	}
 }
