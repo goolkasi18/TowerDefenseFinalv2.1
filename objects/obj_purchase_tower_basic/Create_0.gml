@@ -3,5 +3,5 @@
 // Inherit the parent event
 event_inherited();
 
-cost = 50;
+cost = 40;
 blueprint = obj_blueprint_tower_basic;

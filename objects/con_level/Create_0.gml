@@ -10,8 +10,3 @@ monsters = 0;
 wave = 0;
 money = 100;
 lifes = 10;
-
-//begining crap here
-
-finishedCarving = false;
-lastTile = [0,0];

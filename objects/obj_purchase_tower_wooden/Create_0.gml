@@ -4,4 +4,4 @@
 event_inherited();
 
 blueprint = obj_blueprint_tower_wooden;
-cost = 20;
+cost = 80;
