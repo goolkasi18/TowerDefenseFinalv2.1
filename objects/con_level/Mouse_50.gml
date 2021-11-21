@@ -6,6 +6,8 @@ if(!finishedCarving){
 	tileX = tilemap_get_cell_x_at_pixel(tileMap, mouse_x, mouse_y);
 	tileY = tilemap_get_cell_y_at_pixel(tileMap, mouse_x, mouse_y);
 	
+	var blocksLayer = layer_get_id("Blocks");
+	
 	size=32
 	offset = size/2;
 	
@@ -35,6 +37,8 @@ if(!finishedCarving){
 		if(tilemap_get(tileMap, tileX, tileY) == 7) points += 9000;
 		
 		tilemap_set(tileMap, 0, tileX, tileY);
+		instance_create_layer(tilemap_get_x(tileMap)+(tileX*size)+offset, tilemap_get_y(tileMap)+(tileY*size)+offset, "Blocks", obj_blocked);
+		
 		lastTile = [tileX, tileY];
 		path_add_point(global.path, tilemap_get_x(tileMap)+(tileX*size)+offset, tilemap_get_y(tileMap)+(tileY*size)+offset, 100);
 		if(tileY == 18) {
