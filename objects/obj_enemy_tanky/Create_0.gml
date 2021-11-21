@@ -2,8 +2,8 @@
 event_inherited();
 
 if(instance_exists(con_level)){
-	hp = 18 + round(con_level.wave*0.4);
+	hp = 16 + round(con_level.wave*0.4);
 	mhp = hp;
 }
-spd = 0.75;
+spd = 0.2;
 color = c_purple;

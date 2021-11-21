@@ -5,5 +5,5 @@ if(instance_exists(con_level)){
 	hp = 3 + round(con_level.wave*0.4);
 	mhp = hp;
 }
-spd = 3;
+spd = 0.6;
 color = c_lime;
