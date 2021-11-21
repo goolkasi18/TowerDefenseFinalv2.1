@@ -11,3 +11,5 @@ if(instance_exists(con_level)){
 } else {
 	money = 0;
 }
+
+lavaBurnt = false;

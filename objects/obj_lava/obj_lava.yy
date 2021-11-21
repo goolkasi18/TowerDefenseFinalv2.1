@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_tower_lava",
-    "path": "sprites/spr_tower_lava/spr_tower_lava.yy",
+    "name": "spr_lava",
+    "path": "sprites/spr_lava/spr_lava.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "par_tower",
-    "path": "objects/par_tower/par_tower.yy",
+    "name": "par_projectile",
+    "path": "objects/par_projectile/par_projectile.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,17 +24,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Towers",
-    "path": "folders/Objects/Towers.yy",
+    "name": "Other",
+    "path": "folders/Objects/Other.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tower_lava",
+  "name": "obj_lava",
   "tags": [],
   "resourceType": "GMObject",
 }
