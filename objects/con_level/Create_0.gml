@@ -21,7 +21,9 @@ finishedCarving = false;
 lastTile = [0,0];
 
 invalidSpaces = ds_list_create();
+
 ds_list_add(invalidSpaces,0,2,3,8,9);
+ds_list_add(invalidSpaces,0,2,3,9);
 
 if (room == rm_level1){
 	finalWave = 1;
@@ -53,5 +55,4 @@ else if (room == rm_level8){
 else if (room == rm_level9){
 	finalWave = 3;
 }
-
 

@@ -3,6 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-tower = obj_tower_wooden;
+tower = obj_tower_ice;
 cost = 80;
 range = 64;
+damage = 4;

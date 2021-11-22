@@ -12,5 +12,7 @@ damage = 1;
 cost = 0;
 upgradecost = cost; // Cost to upgrade the tower
 selected = false; // Is the tower selected?
+upgradeBtn = noone;
+sellBtn = noone;
 
 reloading = false;
