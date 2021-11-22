@@ -18,6 +18,7 @@
     {"id":{"name":"spr_btn_level_Menu","path":"sprites/spr_btn_level_Menu/spr_btn_level_Menu.yy",},"order":7,},
     {"id":{"name":"spr_lava","path":"sprites/spr_lava/spr_lava.yy",},"order":11,},
     {"id":{"name":"obj_enemy_worm","path":"objects/obj_enemy_worm/obj_enemy_worm.yy",},"order":8,},
+    {"id":{"name":"DFury","path":"sounds/DFury/DFury.yy",},"order":0,},
     {"id":{"name":"btn_Menu","path":"objects/btn_Menu/btn_Menu.yy",},"order":12,},
     {"id":{"name":"rm_level16","path":"rooms/rm_level16/rm_level16.yy",},"order":25,},
     {"id":{"name":"O_DragonBackground","path":"objects/O_DragonBackground/O_DragonBackground.yy",},"order":9,},

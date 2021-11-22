@@ -6,3 +6,4 @@ if(instance_exists(con_level)){
 	mhp = hp;
 }
 spd = 0.25;
+slowerSpd = spd/2;

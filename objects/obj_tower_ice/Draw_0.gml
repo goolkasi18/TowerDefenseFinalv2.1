@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-if(drawFire){
-draw_sprite(s_AOE_Fire,1,x,y);
-drawFire = false;
-}
+//if(drawFire){
+//draw_sprite_ext(s_AOE_Fire,1,x,y,1,1,0, c_aqua,1);
+//drawFire = false;
+//}
