@@ -24,7 +24,7 @@
 		if(distance_to_point(other.x,other.y) < other.range){
 			//slowAmount = other.speedDamage;
 			//other.drawFire = true;
-			image_blend = c_red;
+	//		image_blend = c_red;
 		
 			hp -= other.damage;
 			other.reloading = true;
@@ -33,7 +33,7 @@
 		}
 		else{
 		//	slowAmount = 0;
-			image_blend = c_white;
+			//image_blend = c_white;
 			//other.drawFire = false;
 		}
 	}else{
