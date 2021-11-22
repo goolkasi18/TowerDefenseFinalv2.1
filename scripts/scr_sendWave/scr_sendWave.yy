@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_next_wave",
+  "name": "scr_sendWave",
   "tags": [],
   "resourceType": "GMScript",
 }

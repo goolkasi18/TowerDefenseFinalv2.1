@@ -43,7 +43,6 @@ if(!finishedCarving){
 		path_add_point(global.path, tilemap_get_x(tileMap)+(tileX*size)+offset, tilemap_get_y(tileMap)+(tileY*size)+offset, 100);
 		if(tileY == 18) {
 			finishedCarving=true;
-			path_reverse(global.path);
 		}
 	}
 }

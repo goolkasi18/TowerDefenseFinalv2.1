@@ -1,13 +1,10 @@
 /// @description Toggle Visibility
-/*
-This is the button that makes new enemies spawn
-*/
-if(instance_exists(con_level)){
-	// Only make the button visible if there is no ongoing wave
-	if(con_level.start == false && con_level.monsters > 0){
+
+if(instance_exists(con_level) && instance_exists(con_waves)){
+	if(con_waves.onslaughter == true){
 		visible = false;
 	} else {
-		if(con_level.wave == con_level.finalWave){
+		if(con_waves.waveIndex == array_length_1d(global.waveData)-1){
 			sprite_index = s_nextLevel;
 			//object_set_sprite(self, s_nextLevel);
 		}

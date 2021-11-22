@@ -17,7 +17,10 @@ if(monsters > 0){
 	
 	// Make the spawned enemy follow the path
 	with(enemy){
-		path_start(global.path, spd, path_action_stop, true);
+		finishedPath = path_duplicate(global.path);
+		//add one more path variable that is random somehwere in the bottom of the cave
+		path_reverse(finishedPath);
+		path_start(finishedPath, spd, path_action_stop, true);
 	}
 	monsters -= 1;
 	
