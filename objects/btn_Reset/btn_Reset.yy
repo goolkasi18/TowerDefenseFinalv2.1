@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_btn_level_selection",
-    "path": "sprites/spr_btn_level_selection/spr_btn_level_selection.yy",
+    "name": "sRestart",
+    "path": "sprites/sRestart/sRestart.yy",
   },
   "solid": false,
   "visible": true,
