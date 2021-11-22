@@ -17,11 +17,12 @@
 //		}
 //	}
 //}
-
-
+	if(!reloading){
 	with(par_enemy){
-		if(!other.reloading){
+	
 		if(distance_to_point(other.x,other.y) < other.range && y < 600){
+
+
 			//slowAmount = other.speedDamage;
 			//other.drawFire = true;
 	//		image_blend = c_red;
@@ -31,13 +32,6 @@
 			other.alarm[0] = 1/other.frequency * room_speed;
 		
 		}
-		else{
-		//	slowAmount = 0;
-			//image_blend = c_white;
-			//other.drawFire = false;
+		
 		}
-	}else{
-	
-	//image_blend = c_white;
-}
-}
+	}

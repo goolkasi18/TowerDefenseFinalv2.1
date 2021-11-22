@@ -1,6 +1,6 @@
 /// @description Initialize Variables
-hp = 40;
-spd = 0.1;
+hp = 60;
+spd = 0.03;
 color = c_blue;
 
 event_inherited();

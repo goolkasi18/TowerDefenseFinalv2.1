@@ -6,4 +6,4 @@ event_inherited();
 tower = obj_tower_wooden;
 cost = 80;
 range = 64;
-damage = 4;
+damage = 0.25;
