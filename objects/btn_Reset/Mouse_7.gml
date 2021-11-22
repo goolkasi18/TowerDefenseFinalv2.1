@@ -1,6 +1,7 @@
-/// @description Start next wave on click
+/// @description
 if(instance_exists(con_level) && visible){
-	if(con_level.finishedCarving == false){
+//	if(con_waves.onslaughter = true){
 		//reset the level
-	}
+		room_restart();
+//	}
 }
