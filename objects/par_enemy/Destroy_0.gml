@@ -2,7 +2,7 @@
 if(!madeIt)
 {
 	con_level.money += money;
-	global.points += mhp*169;
+	global.points += mhp*69;
 }
 
 // Blood part

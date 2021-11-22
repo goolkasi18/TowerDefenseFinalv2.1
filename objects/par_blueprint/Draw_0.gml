@@ -1,8 +1,7 @@
 /// @description Draw Red if not buildable and draw range
+
 if(instance_exists(con_level)){
-	//if((place_meeting(x,y,par_tower) || place_meeting(x,y,obj_blocked)) || (cost > con_level.money)){
 	
-	//if(tilemap_get_cell_x_at_pixel(layer_tilemap_get_id(layer_get_id("Tiles")), mouse_x, mouse_y) < 0){	
 	if(tilemap_get(layer_tilemap_get_id(layer_get_id("Tiles")), tilemap_get_cell_x_at_pixel(layer_tilemap_get_id(layer_get_id("Tiles")), mouse_x, mouse_y), tilemap_get_cell_y_at_pixel(layer_tilemap_get_id(layer_get_id("Tiles")), mouse_x, mouse_y)) < 1
 	|| (cost > con_level.money)
 	|| (place_meeting(x,y,par_tower) || place_meeting(x,y,obj_blocked)) ){
@@ -11,6 +10,8 @@ if(instance_exists(con_level)){
 		draw_set_alpha(0.5);
 	
 		draw_rectangle(x,y,x+32,y+32,false);
+		
+		drawReset();
 	
 		valid = false;
 

@@ -12,8 +12,7 @@ if(valid){
 	
 		draw_rectangle(x,y,x+32,y+32,false);
 	
-		draw_set_alpha(1);
-		draw_set_color(c_black);
+		drawReset();
 		
 		valid = false;
 	}

@@ -7,3 +7,4 @@ tower = obj_tower_ice;
 cost = 80;
 range = 64;
 damage = 4;
+frequency = 0.3;

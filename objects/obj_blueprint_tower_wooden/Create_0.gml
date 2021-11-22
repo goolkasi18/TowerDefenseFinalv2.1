@@ -7,3 +7,4 @@ tower = obj_tower_wooden;
 cost = 80;
 range = 64;
 damage = 0.25;
+frequency = 0.30;
