@@ -1,7 +1,6 @@
 /// @description Spawn Enemy
 
 if(monsters > 0){
-	show_debug_message("got hete")
 	// Every fifth wave a boss monster appears, the other times basic, fast and tanky are supposed to be mixed
 	if(wave % 5 == 1 && wave != 1){
 		monsters = 1;
@@ -21,5 +20,15 @@ if(monsters > 0){
 		path_start(global.path, spd, path_action_stop, true);
 	}
 	monsters -= 1;
-	alarm[0] = delay; // Reset the spawn timer
+	
+	if(newWave != wave){
+		delayAdj = delayAdj/3;
+		newWave = wave;
+	}
+	
+	if (delay >= (60*0.5)){
+		delayAdj = delaneyAdj + delay*0.01;
+	}
+	
+	alarm[0] = (delay - delayAdj); // Reset the spawn timer
 }
