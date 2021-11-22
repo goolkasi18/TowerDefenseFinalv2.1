@@ -16,8 +16,8 @@ draw_text(725, 270, string(global.points));
 draw_text(725, 310, string(con_level.money) + "(*10)");
 draw_text(725, 350, string(con_level.gems) + "(*1000)");
 
-total = global.points + (con_level.money*10) + (con_level.gems*1000);
-draw_text(725, 420, string(total));
+global.tempTotal = global.points + (con_level.money*10) + (con_level.gems*1000);
+draw_text(725, 420, string(global.tempTotal));
 
 
 drawReset();
