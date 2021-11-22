@@ -78,6 +78,7 @@
     {"id":{"name":"obj_tower_basic","path":"objects/obj_tower_basic/obj_tower_basic.yy",},"order":5,},
     {"id":{"name":"obj_lava","path":"objects/obj_lava/obj_lava.yy",},"order":10,},
     {"id":{"name":"obj_purchase_tower_wooden","path":"objects/obj_purchase_tower_wooden/obj_purchase_tower_wooden.yy",},"order":7,},
+    {"id":{"name":"sNextLvl","path":"sprites/sNextLvl/sNextLvl.yy",},"order":18,},
     {"id":{"name":"spr_tower_lava","path":"sprites/spr_tower_lava/spr_tower_lava.yy",},"order":4,},
     {"id":{"name":"rm_level11","path":"rooms/rm_level11/rm_level11.yy",},"order":20,},
     {"id":{"name":"obj_blueprint_tower_wooden","path":"objects/obj_blueprint_tower_wooden/obj_blueprint_tower_wooden.yy",},"order":9,},
