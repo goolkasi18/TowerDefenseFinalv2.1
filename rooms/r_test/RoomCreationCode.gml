@@ -1,1 +1,0 @@
-global.path = r_test;

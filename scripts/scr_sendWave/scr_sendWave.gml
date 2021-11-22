@@ -19,7 +19,6 @@ function sendEnemy(enemy){
 
 
 	enemyInstance = instance_create_layer(path_get_point_x(finishedPath,0),path_get_point_y(finishedPath,0),"Instances", enemy);
-	with(enemyInstance){
-		path_start(other.finishedPath, spd, path_action_stop, true);
-	}
+	enemyInstance.path = finishedPath;
+	enemyInstance.visible = false;
 }

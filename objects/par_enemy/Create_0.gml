@@ -8,3 +8,6 @@ slowerSpd = spd/2;
 money=mhp;
 
 lavaBurnt = false;
+
+path = global.path;
+alarm[0] = random_range(0,room_speed*10);
