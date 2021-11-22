@@ -14,3 +14,4 @@ ds_list_add(invalidSpaces,0,2,3,9);
 finishedCarving = false;
 lastTile = [0,0];
 
+won = false;
