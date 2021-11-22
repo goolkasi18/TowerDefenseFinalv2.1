@@ -13,10 +13,8 @@ if(onslaughter){
 			alarm[0] = waveDelay;
 		}
 	}
-
 }
-if(!instance_exists(par_enemy) && waveIndex > 0)
-	{
-		con_level.won = true;
-		instance_find(O_Background,0).visible = true;
-	}
+else if(!instance_exists(par_enemy) && waveIndex > 0){
+	con_level.won = true;
+	instance_find(O_Background,0).visible = true;
+}
