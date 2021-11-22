@@ -7,8 +7,6 @@ money = 0;
 
 gems = 0;
 
-global.levelNum = 0;
-
 invalidSpaces = ds_list_create();
 ds_list_add(invalidSpaces,0,2,3,9);
 finishedCarving = false;

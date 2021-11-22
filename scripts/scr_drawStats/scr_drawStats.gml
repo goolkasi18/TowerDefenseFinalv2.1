@@ -7,7 +7,7 @@ function drawStats(selectedTower){
 	draw_set_font(Font2);
 	
 	draw_text((864-32*5),(32*14),"Range: " + string(selectedTower.range) + "(+" + string(selectedTower.range - (selectedTower.range * 1.1)) + ")");
-	draw_text((864-32*5),(32*15),"Damage: " + string(selectedTower.damage*12) + "(+" +string((selectedTower.damage*0.6)*12) + ")");
+	draw_text((864-32*5),(32*15),"Damage: " + string(selectedTower.damage*12) + "(+" +string((selectedTower.damage*0.4)*12) + ")");
 	draw_text((864-32*5),(32*16),"Rate: " + string(selectedTower.frequency) + "(+"+ string(selectedTower.frequency*0.1) + ")");
 	
 	drawReset();

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_highScore",
-    "path": "sprites/s_highScore/s_highScore.yy",
+    "name": "sRubyButton",
+    "path": "sprites/sRubyButton/sRubyButton.yy",
   },
   "solid": false,
   "visible": true,
