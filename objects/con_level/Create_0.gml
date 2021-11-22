@@ -3,8 +3,9 @@
 Manages most of the game logic, like mob spawning, money, lifes ...
 */
 
-money = 100;
-points = 0;
+money = 0;
+
+gems = 0;
 
 global.levelNum = 0;
 

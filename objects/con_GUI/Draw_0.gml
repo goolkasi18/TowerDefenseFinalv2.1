@@ -14,7 +14,9 @@ if(instance_exists(con_level)){
 	draw_text((864-(32*4)),0+(32*4), string(global.levelNum));
 	
 	draw_text((864-(32*4)),0+(32*5),"Score:");
-	draw_text((864-(32*4)),0+(32*6), string(con_level.points));
+	//draw_text((864-(32*4)),0+(32*6), string(con_level.points));
+	
+	draw_text((864-(32*4)),0+(32*6), string(global.points));
 	
 	//draw_text(864-(32*4),0+(32*10),"Wave: " + string(con_level.wave));
 	
