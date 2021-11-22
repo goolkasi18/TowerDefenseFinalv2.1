@@ -27,7 +27,7 @@ if(monsters > 0){
 	}
 	
 	if (delay >= (60*0.5)){
-		delayAdj = delaneyAdj + delay*0.01;
+		delayAdj = delayAdj + delay*0.01;
 	}
 	
 	alarm[0] = (delay - delayAdj); // Reset the spawn timer

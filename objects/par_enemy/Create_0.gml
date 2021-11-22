@@ -12,4 +12,5 @@ if(instance_exists(con_level)){
 	money = 0;
 }
 
+slowAmount = 0;
 lavaBurnt = false;
