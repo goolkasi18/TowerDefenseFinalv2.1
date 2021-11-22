@@ -13,15 +13,11 @@ draw_text(140, 350, "Gems Left : ");
 draw_text(140, 420, "TOTAL POINTS : ");
 draw_set_halign(fa_right);
 draw_text(725, 270, string(global.points));
-draw_text(725, 310, string(con_level.money) + "(*100)");
+draw_text(725, 310, string(con_level.money) + "(*10)");
 draw_text(725, 350, string(con_level.gems) + "(*1000)");
 
-total = global.points + (con_level.money*100) + (con_level.gems*1000);
+total = global.points + (con_level.money*10) + (con_level.gems*1000);
 draw_text(725, 420, string(total));
 
 
-
-//score:
-//score total:
-//dsadsad
-
+drawReset();

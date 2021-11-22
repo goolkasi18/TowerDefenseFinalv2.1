@@ -7,10 +7,9 @@ if(selected){
 	draw_rectangle(x,y,x+32,y+32,false);
 	draw_circle(x+16,y+16,range,false);
 	
-	drawStats(self);
+	drawReset();
 	
-	//draw_text(other.x + 0.3*32,other.y+30, string(upgradecost));
-
+	drawStats(self);
 }
 
 draw_self();

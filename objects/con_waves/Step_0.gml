@@ -4,13 +4,19 @@ if(onslaughter){
 		
 		sendWave(waveIndex, global.waveData);
 		
+		waveIndex += 1;
 		enemiesReloading = true;
-		alarm[0] = waveDelay;
+		if(waveIndex == array_length_1d(global.waveData)){ //no more waves. that was the last
+			onslaughter = false;
+		}
+		else{
+			alarm[0] = waveDelay;
+		}
 	}
+
 }
-if(!instance_exists(par_enemy) && waveIndex == array_length_1d(global.waveData))
+if(!instance_exists(par_enemy) && waveIndex > 0)
 	{
 		con_level.won = true;
-		onslaughter = false;
 		instance_find(O_Background,0).visible = true;
 	}
