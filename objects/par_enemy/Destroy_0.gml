@@ -1,7 +1,7 @@
 /// @description Add Money and Blood
 
 con_level.money += money;
-//not_con_level.score += mhp*money*modifier
+global.points += mhp*169;
 
 // Blood part
 var r = irandom_range(1,3);

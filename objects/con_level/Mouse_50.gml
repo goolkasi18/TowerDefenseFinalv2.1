@@ -35,7 +35,6 @@ if(!finishedCarving){
 		if(tilemap_get(tileMap, tileX, tileY) == 5) money += 9000; //large gold
 		//if(tilemap_get(tileMap, tileX, tileY) == 6) points += 9000; //small gem
 		//if(tilemap_get(tileMap, tileX, tileY) == 7) points += 9000; //large gem
-		
 		if(tilemap_get(tileMap, tileX, tileY) == 6) gems += 1; //small gem
 		if(tilemap_get(tileMap, tileX, tileY) == 7) gems += 3; //large gem
 		
