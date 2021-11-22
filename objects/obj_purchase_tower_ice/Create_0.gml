@@ -4,4 +4,4 @@
 event_inherited();
 
 blueprint = obj_blueprint_tower_ice;
-cost = 80;
+cost = 60;
