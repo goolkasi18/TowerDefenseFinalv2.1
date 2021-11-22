@@ -4,7 +4,7 @@
 event_inherited();
 
 tower = obj_tower_ice;
-cost = 80;
+cost = 60;
 range = 64;
 damage = 4;
 frequency = 0.3;

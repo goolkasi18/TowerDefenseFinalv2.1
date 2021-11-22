@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_next_wave",
-    "path": "sprites/spr_next_wave/spr_next_wave.yy",
+    "name": "spr_btn_level_selection",
+    "path": "sprites/spr_btn_level_selection/spr_btn_level_selection.yy",
   },
   "solid": false,
   "visible": true,
