@@ -31,10 +31,10 @@ if(!finishedCarving){
 	}
 	
 	if(valid){
-		if(tilemap_get(tileMap, tileX, tileY) == 4) money += 900;
-		if(tilemap_get(tileMap, tileX, tileY) == 5) money += 9000;
-		if(tilemap_get(tileMap, tileX, tileY) == 6) points += 9000;
-		if(tilemap_get(tileMap, tileX, tileY) == 7) points += 9000;
+		if(tilemap_get(tileMap, tileX, tileY) == 4) money += 900; //small gold
+		if(tilemap_get(tileMap, tileX, tileY) == 5) money += 9000; //large gold
+		if(tilemap_get(tileMap, tileX, tileY) == 6) points += 9000; //small gem
+		if(tilemap_get(tileMap, tileX, tileY) == 7) points += 9000; //large gem
 		
 		tilemap_set(tileMap, 0, tileX, tileY);
 		instance_create_layer(tilemap_get_x(tileMap)+(tileX*size)+offset, tilemap_get_y(tileMap)+(tileY*size)+offset, "Blocks", obj_blocked);

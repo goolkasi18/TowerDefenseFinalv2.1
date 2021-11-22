@@ -7,6 +7,10 @@ if(instance_exists(con_level)){
 	if(con_level.start == false && con_level.monsters > 0){
 		visible = false;
 	} else {
+		if(con_level.wave == con_level.finalWave){
+			sprite_index = s_nextLevel;
+			//object_set_sprite(self, s_nextLevel);
+		}
 		visible = true;
 	}
 }
