@@ -7,3 +7,7 @@ draw_set_font(Font2);
 draw_set_halign(fa_center);
 draw_text(450, 220, "LEVEL COMPLETE!!");
 
+//score:
+//score total:
+//dsadsad
+

@@ -1,5 +1,5 @@
 /// @description Initialize Variables
-hp = 9
+hp = 9;
 spd = 0.1;
 color = c_fuchsia;
 

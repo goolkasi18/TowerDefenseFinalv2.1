@@ -5,5 +5,8 @@ path_set_closed(global.path, false);
 
 //basic,fast,tanky,boss,worm
 global.waveData = [
-		[1,0,0,0,0],
+		[5,2,0,0,0],
+		[5,2,0,0,0],
+		[5,2,0,0,0],
+		[5,2,0,0,0],
 	];
