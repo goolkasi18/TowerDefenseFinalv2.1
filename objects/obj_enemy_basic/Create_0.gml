@@ -1,9 +1,6 @@
 /// @description Initialize Variables
-event_inherited();
-
-if(instance_exists(con_level)){
-	hp = 5 + round(con_level.wave*0.4);
-	mhp = hp;
-}
+hp = 6
 spd = 0.25;
-slowerSpd = spd/2;
+color = c_red;
+
+event_inherited();
