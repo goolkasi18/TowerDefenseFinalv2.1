@@ -21,7 +21,7 @@
 
 	with(par_enemy){
 		if(!other.reloading){
-		if(distance_to_point(other.x,other.y) < other.range){
+		if(distance_to_point(other.x,other.y) < other.range && y < 600){
 			//slowAmount = other.speedDamage;
 			//other.drawFire = true;
 	//		image_blend = c_red;

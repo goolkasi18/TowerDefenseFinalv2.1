@@ -1,3 +1,3 @@
 /// @description Go to level selection
-scr_save();
+saveScore();
 room_goto(rm_menu);

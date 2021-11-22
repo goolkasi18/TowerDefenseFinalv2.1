@@ -1,11 +1,14 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_save(){
+function saveScore(){
 
 
 if(global.points > global.HSpoints1 ){
+	global.HSpoints3 = global.HSpoints2;
+	global.HSpoints2 = global.HSpoints1;
 	global.HSpoints1 = global.points;
 }else if (global.points > global.HSpoints2){
+	global.HSpoints3 = global.HSpoints2;
 	global.HSpoints2 = global.points;
 }else if (global.points > global.HSpoints3){
 	global.HSpoints3 = global.points;

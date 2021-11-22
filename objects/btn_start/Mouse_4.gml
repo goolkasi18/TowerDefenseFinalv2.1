@@ -1,2 +1,3 @@
-/// @description End game
+/// @description begin game
+global.points = 0;
 room_goto(rm_level1);

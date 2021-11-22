@@ -1,3 +1,3 @@
 /// @description End game
-scr_save();
+saveScore();
 game_end();
