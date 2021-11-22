@@ -3,5 +3,6 @@
 
 // Game Over
 if(money < 0){
+	saveScore();
 	game_restart();
 }

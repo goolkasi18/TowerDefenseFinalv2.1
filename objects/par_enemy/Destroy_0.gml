@@ -1,7 +1,9 @@
 /// @description Add Money and Blood
-
-con_level.money += money;
-global.points += mhp*169;
+if(!madeIt)
+{
+	con_level.money += money;
+	global.points += mhp*169;
+}
 
 // Blood part
 var r = irandom_range(1,3);

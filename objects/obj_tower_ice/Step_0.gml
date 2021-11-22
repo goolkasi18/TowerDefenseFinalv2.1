@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 with(par_enemy){
-	if(distance_to_point(other.x,other.y) < other.range){
+	if(distance_to_point(other.x,other.y) < other.range && y < 600){
 		//slowAmount = other.speedDamage;
 		//other.drawFire = true;
 		path_speed = slowerSpd;
