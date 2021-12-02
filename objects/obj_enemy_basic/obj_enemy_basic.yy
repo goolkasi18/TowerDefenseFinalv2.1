@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_placeholder_64",
-    "path": "sprites/spr_placeholder_64/spr_placeholder_64.yy",
+    "name": "sBlueDwarf",
+    "path": "sprites/sBlueDwarf/sBlueDwarf.yy",
   },
   "solid": false,
   "visible": true,

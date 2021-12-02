@@ -1,6 +1,6 @@
 /// @description Initialize Variables
 hp = 30;
 spd = 0.2;
-color = c_purple;
+color = c_yellow;
 
 event_inherited();

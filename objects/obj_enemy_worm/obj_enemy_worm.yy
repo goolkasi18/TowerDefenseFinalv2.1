@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_placeholder_Worm",
-    "path": "sprites/spr_placeholder_Worm/spr_placeholder_Worm.yy",
+    "name": "sPinkDwarf",
+    "path": "sprites/sPinkDwarf/sPinkDwarf.yy",
   },
   "solid": false,
   "visible": true,
